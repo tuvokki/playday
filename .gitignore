@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#dependencies
+node_modules
+
+#webstorm
+.idea
+
+#osx
+.DS_Store
