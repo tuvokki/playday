@@ -8,5 +8,5 @@ Toying around on playday
 * `npm run watch`
 * open index.html in a browser
 
-## yolo?
-yolo!
+## Build
+yolo
