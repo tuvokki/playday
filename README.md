@@ -1,9 +1,9 @@
 # playday
 Toying around on playday
 
-# install
+## install
 `npm install`
 
-# running
+## running
 * `npm run watch`
 * open index.html in a browser
