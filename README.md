@@ -2,8 +2,8 @@
 Toying around on playday
 
 #install
-npm install
+`npm install`
 
 #running
-* npm run watch
+* `npm run watch`
 * open index.html in a browser
