@@ -7,3 +7,6 @@ Toying around on playday
 ## running
 * `npm run watch`
 * open index.html in a browser
+
+## yolo?
+yolo!
