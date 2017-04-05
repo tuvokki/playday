@@ -9,4 +9,4 @@ Toying around on playday
 * open index.html in a browser
 
 ## Build
-yolo
+And now for some serious building...
