@@ -11,6 +11,4 @@ Toying around on playday
 ## Build
 And now for some serious test building...
 
-[![Build status][ci-image]][ci-url]
-[ci-image]: https://travis-ci.org/tuvokki/playday.png?branch=master
-[ci-url]: https://travis-ci.org/tuvokki/playday
+[![Build Status](https://travis-ci.org/tuvokki/playday.svg?branch=master)](https://travis-ci.org/tuvokki/playday)
