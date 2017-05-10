@@ -1,33 +1,35 @@
 {
-  "name": "playday",
-  "version": "0.0.1",
-  "description": "A playday project",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "mocha": "^3.2.0",
-    "should": "^11.2.1",
-    "supertest": "^3.0.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tuvokki/playday.git"
-  },
-  "keywords": [
-    "playday",
-    "express",
-    "fun",
-    "project"
-  ],
-  "author": "Wouter Roosendaal <wouterroosendaal@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tuvokki/playday/issues"
-  },
-  "homepage": "https://github.com/tuvokki/playday#readme"
+    "name": "playday",
+    "version": "0.0.1",
+    "description": "A playday project",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.15.2"
+    },
+    "devDependencies": {
+        "mocha": "^3.2.0",
+        "should": "^11.2.1",
+        "supertest": "^3.0.0"
+    },
+    "scripts": {
+        "start": "node ./app.js",
+        "watch": "PORT=8000 nodemon ./app.js --watch ./ --exec 'npm test' --delay 1",
+        "test": "mocha -R spec ./test/*.spec.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tuvokki/playday.git"
+    },
+    "keywords": [
+        "playday",
+        "express",
+        "fun",
+        "project"
+    ],
+    "author": "Wouter Roosendaal <wouterroosendaal@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tuvokki/playday/issues"
+    },
+    "homepage": "https://github.com/tuvokki/playday#readme"
 }
